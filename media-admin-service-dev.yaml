@@ -27,3 +27,7 @@ management:
     securePort: 443
     statusPageUrl: https://${eureka.hostname}${server.servlet.context-path}/actuator/info
     homePageUrl: https://${eureka.hostname}${server.servlet.context-path}/
+    
+property-file:
+  name: DEV
+  description: This is Development environment.
