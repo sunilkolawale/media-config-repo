@@ -19,7 +19,7 @@ management:
         include:
         - refresh
   
-  eureka:
+eureka:
     instance:
     hostname: '${vcap.application.uris[0]:localhost:${server.port}}'
     nonSecurePortEnabled: false
